@@ -1,0 +1,79 @@
+.iconsNavLeft{
+    justify-content: space-between !important;
+    align-items: center !important;
+    display: flex !important;
+    gap: 20px;
+}
+.middle_NAV{
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 25px;
+}
+#OSS_NAV{
+    border-bottom: 0.5px solid #000000;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+    color: #000;
+}
+#cart_phone{
+    display: none;
+}
+#LOGO_NAV{
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+
+}
+.KAWTHAR{
+    color: #000 !important;
+  
+}
+.middle_NAV .nav-link {
+    color: #000 !important; 
+    font-weight:700; 
+    font-size: 16px;
+
+  }
+  #cart_icon_Nav{
+    font-weight: 500;
+    font-size: 21px;
+  }
+  
+ @media(max-width:990px){
+.KAWTHAR{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+margin-top: 30px !important;
+}
+.iconsNavLeft{
+    display: none !important;
+
+}
+#OSS_NAV{
+   border-bottom: 0px;
+}
+.middle_NAV small{
+    color: red;
+
+}
+#cart_phone{
+    font-weight: 800;
+   
+
+}
+.middle_NAV{
+    gap: 15px;
+}
+#cart_phone{
+    display: block;
+}
+
+
+
+
+
+
+ }
+ 

@@ -1,0 +1,111 @@
+.left-YASTA {
+    background-color: #E7FAFE;    border-radius: 20px;
+   
+    height: 80vh !important;
+    display: flex;    flex-direction: column;
+    justify-content: center;}
+/* Button Styling */
+.right-YASTA{
+    background-image: url('./assets/images/Header/baked-chicken-wings-asian-style-tomatoes-sauce-plate%201.svg');
+    background-size: cover !important;
+    height: 80vh !important;
+    width: 100%;
+
+}
+
+
+#OOPLIGATION{
+    display: none;
+}
+
+#Fdahya {    background-color: #fff;
+    border: none;    padding: 8px;
+    border-radius: 7px;
+    font-weight: 600;    outline: none;
+    font-size: 16px;    margin-bottom: 20px;
+    display: inline-block;    align-self: start; 
+}
+/* Heading Styling */#delicious {
+    font-weight: 700;    font-size: 2.5rem;
+    margin-top: 10px;}
+/* Paragraph Styling */
+#Lorem {    color: #00000099;
+    line-height: 1.6;}
+/* Buttons Group */
+.SQLP {    display: flex;
+    gap: 15px;    margin-top: 20px;
+}
+.SQLP .btn {    background-color: #fff;
+    border: 1px solid #ddd;    border-radius: 8px;
+    font-weight: 500;    padding: 10px 15px;
+}
+/* Character Info */.CharacterInfo {
+    display: flex;    gap: 10px;
+    align-items: center;}
+#JohnName {
+    font-weight: 700;}
+/* View Recipes Button */
+.view-recipes {    background-color: #000;
+    color: #fff;    border-radius: 8px;
+    display: flex;    align-items: center;
+    font-weight: 600;    margin-top: 30px;
+}
+/* Padge Things */
+.rowwww {
+    position: relative;
+  }
+  #PADGEE {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10; /* لضمان ظهورها فوق المحتوى */
+  }
+  
+/* الاتنين ..تابلت و موبايل  */
+  @media (max-width: 992px) { 
+    #PADGEE {
+      display: none;
+    }
+    .right-YASTA,.left-YASTA{
+        height: 60vh !important;
+       
+        margin: 10px;
+    
+    }#delicious{
+        text-align:center;
+    }
+    #Lorem{
+        text-align:center;
+    }
+    .SQLP{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+    .left-YASTA{
+        background-color: #fff;
+    }
+    #Fdahya{
+        display: none;
+    }
+    #OOPLIGATION{
+        display: block;
+       
+       
+
+    }
+    .jopPADEG{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .right-YASTA {
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+  
+  }
+  

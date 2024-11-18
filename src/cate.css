@@ -1,0 +1,16 @@
+.flexWeKeda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#All{
+    background: #E7FAFE;
+    color: black;
+    font-weight: 700;
+
+}
+#CategoriesName{
+    font-weight: 700;
+    font-size: 27px;
+}
+

@@ -78,6 +78,9 @@
     #Lorem{
         text-align:center;
     }
+    #Fdahya{
+        display: none;
+    }
     .SQLP{
         text-align: center;
         justify-content: center;
@@ -86,9 +89,7 @@
     .left-YASTA{
         background-color: #fff;
     }
-    #Fdahya{
-        display: none;
-    }
+    
     #OOPLIGATION{
         display: block;
        
@@ -101,12 +102,14 @@
         align-items: center;
         text-align: center;
     }
+   
+  
+  }
+  @media(max-width:770px){
     .right-YASTA {
         background-size: contain !important;
         background-repeat: no-repeat;
         background-position: center; 
         display: none;
     }
-  
   }
-  

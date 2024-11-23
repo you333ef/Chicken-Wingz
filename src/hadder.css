@@ -113,3 +113,26 @@
         display: none;
     }
   }
+  @media (max-width: 450px) {
+    .view-recipes {
+        font-size: 14px; /* تصغير حجم الزر */
+        padding: 8px 12px;
+        width: 80%; /* اجعله يملأ العرض */
+    }
+
+    .rowWeKEDA {
+        flex-direction: column; /* جعل العناصر في عمود */
+        text-align: center;
+    }
+    .view-recipes{
+        display: flex;
+        text-align: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .iconClick{
+        font-size: 22px;
+    }
+
+   
+}

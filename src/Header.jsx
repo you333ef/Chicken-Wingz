@@ -51,7 +51,7 @@ const Header = () => {
             </div> 
           </div> 
           <button className="btn view-recipes"> 
-            View Recipes<IoPlay /> 
+            View Recipes<IoPlay className="iconClick" /> 
           </button> 
         </div> 
       </div>

@@ -67,6 +67,7 @@ color: #85BB65;
   .card{
     width: 90% !important;
   height: 100%;
+  
     background-color: #E7F9FD;
     border-radius: 15px;
     
@@ -75,4 +76,8 @@ color: #85BB65;
     border-radius: 10px;
   }
 
-
+#SHOFT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

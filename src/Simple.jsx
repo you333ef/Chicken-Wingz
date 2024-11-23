@@ -34,7 +34,7 @@ fetch('/Simple.json')
 <div className="row">
   {data.map(function(recipe, index){
 return (
-  <div key={index} className="col-lg-4 col-md-6 col-sm-6 mb-4 mt-5">
+  <div key={index} className="col-lg-4 col-md-6 col-sm-6 mb-4 mt-5" id='SHOFT'>
     <div className="card h-10">
       <div className="COWYEZ">
         <img src={recipe.src}  className="card-img-top" />

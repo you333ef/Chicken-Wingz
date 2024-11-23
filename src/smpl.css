@@ -1,0 +1,78 @@
+#SMPLE_TITLE{
+    font-weight: 700;
+}
+#SIMPLE-LOREM{
+    color: #00000099;
+    font-size: 15px;
+
+}
+#CART-ICON {
+    position: absolute !important;
+    top: 5px;
+    right: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%; 
+    font-size: 20px;
+    width: 40px; 
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc; 
+}
+
+.COWYEZ{
+    position: relative;
+
+}
+#smple_title{
+    font-size: 18px;
+    font-weight: 700;
+
+}
+#iconYarateFloos{
+justify-content: space-around !important;
+gap: 5px;
+}
+#Tawqeet {
+    display: flex; 
+    align-items: center;
+    gap:5px !important; 
+   
+}
+#Tawqeet span {
+    font-weight:500;
+   
+}
+#Tawqeet #wqt{
+   font-size: 19px;
+   
+}
+#price_dollars{
+    font-weight:600;
+   
+}
+#icon_coins{
+    color: #FFD700
+    ;
+
+}
+#dollar-Allama{
+color: #85BB65;
+    font-family: 'Arial', sans-serif; 
+    font-size: 19px; 
+  }
+  
+  .card{
+    width: 90% !important;
+  height: 100%;
+    background-color: #E7F9FD;
+    border-radius: 15px;
+    
+  }
+  .card .card-img-top{
+    border-radius: 10px;
+  }
+
+

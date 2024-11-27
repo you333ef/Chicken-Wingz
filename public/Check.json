@@ -1,24 +1,22 @@
 [
     {
-"image":"../public/EveryOne-Sec&Any/Rectangle (1).svg",
-"id":1,
-"date": "September 19"
-    },
-    {
-"image":"../public/EveryOne-Sec&Any/Rectangle (2).svg",
-"id":2,
-"date": "September 19"
-    },
-    {
-        "image":"../public/EveryOne-Sec&Any/Rectangle (3).svg",
-        "id":3,
+        "image": "/EveryOne-Sec&Any/Rectangle%20(1).svg",
+        "id": 1,
         "date": "September 19"
     },
     {
-
-        "image":"../public/EveryOne-Sec&Any/Rectangle.svg",
-        "id":4,
+        "image": "/EveryOne-Sec&Any/Rectangle%20(2).svg",
+        "id": 2,
         "date": "September 19"
-
+    },
+    {
+        "image": "/EveryOne-Sec&Any/Rectangle%20(3).svg",
+        "id": 3,
+        "date": "September 19"
+    },
+    {
+        "image": "/EveryOne-Sec&Any/Rectangle.svg",
+        "id": 4,
+        "date": "September 19"
     }
 ]

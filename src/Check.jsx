@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import imgFOOQ from '../public/EveryOne-Sec&Any/OvalTOP.svg'
 import truee from '../public/EveryOne-Sec&Any/Shape.svg'
+const imgFOOQ = '/EveryOne-Sec&Any/OvalTOP.svg';
+
 import More from '../public/EveryOne-Sec&Any/More Icon.svg'
 import { FaRegComment } from "react-icons/fa6";
 import { IoBookmarkOutline } from "react-icons/io5";
@@ -15,7 +16,7 @@ import './check.css';
 const Check = () => {
     const[Big,SetBig]=useState([])
 useEffect(function(){
-fetch('../public/Check.json')
+fetch('/public/Check.json')
 .then(function(res){
     return res.json()
 

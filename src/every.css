@@ -1,0 +1,42 @@
+#EveryOne {
+    padding: 20px 0;
+  }
+  
+  .EveryImg {
+    max-width: 80%;
+    height: auto;
+  }
+  #NosKalam p{
+    color:#8F9293  !important;
+  }
+  #NosKalam h2{
+  font-weight: 600;
+  }
+  #NosKalam button{
+   padding: 5px;
+   font-weight: 600;
+    }
+   
+ 
+  button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+@media(max-width:990px)  {
+
+#NosKalam{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+}

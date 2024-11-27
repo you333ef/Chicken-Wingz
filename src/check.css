@@ -1,0 +1,108 @@
+.TopObj {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .profile-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  
+  .text-and-icon {
+    flex: 1;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .text-and-icon span {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* مسافة بين النص والأيقونة */
+  }
+  
+  .truee-icon {
+    width: 13px;
+    height: 13px;
+  }
+  
+  .text-and-icon small {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .action-icon {
+    width: 17px;
+    height: 17px;
+  }
+#SHOWW{
+    display: flex;
+  gap: 4px;
+    align-items: center;
+}  
+#WOW{
+    width: 100% !important;
+   
+
+}
+.post-content {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .post-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .post-text {
+    font-size: 13px;
+    margin: 5px 0;
+  }
+  
+  .post-caption {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .post-date {
+    font-size: 12px;
+    color: #999;
+  }
+  .NOWOW{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .ICONS-past{
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .start-icons{
+    gap: 10px !important;
+    display: flex;
+  }
+#NIN{
+  color: red;
+}
+.Second{
+  color: #0088cc !important;
+ 
+}

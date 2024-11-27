@@ -16,10 +16,23 @@ fetch('/Simple.json')
 .then(function(data){
   Setdata(data)
 })
-
-
-
 },[])
+const[cart,SetCart]=useState([])
+useEffect(function(){
+  let MeMo=JSON.parse(window.localStorage.getItem('ToCart'))||[]
+  SetCart(MeMo)
+
+},[]);
+
+function HandleCart(recipe){
+  var outLiter=[...cart,recipe]
+  SetCart(outLiter)
+  window.localStorage.setItem('ToCart',JSON.stringify(outLiter))
+  console.log(outLiter)
+}
+
+
+
 
 
 
@@ -34,7 +47,7 @@ fetch('/Simple.json')
 <div className="row">
   {data.map(function(recipe, index){
 return (
-  <div key={index} className="col-lg-4 col-md-6 col-sm-6 mb-4 mt-5" id='SHOFT'>
+  <div key={index} className="col-lg-4 col-6 col-md-6 col-sm-6 mb-4 mt-5" id='SHOFT'>
     <div className="card h-10">
       <div className="COWYEZ">
         <img src={recipe.src}  className="card-img-top" />
@@ -43,25 +56,18 @@ return (
           id='CART-ICON'
           style={{ cursor: "pointer" }}
         >
-<FaCartShopping  />
+<FaCartShopping onClick={function(){HandleCart(recipe)}} />
 </div>
-      </div>
-      {/* محتوى البطاقة */}
+      </div>    
       <div className="card-body d-flex flex-column">
-        {/* العنوان */}
         <h5 className="card-title " id='smple_title'>{recipe.title}</h5>
-
-       
-        <div className="d-flex justify-content-between align-items-center mt-auto">
-        
+        <div className="d-flex justify-content-between align-items-center mt-auto">        
           <div id='Tawqeet'>
           <FaStopwatch  id='wqt'/>
             <span>30 Minutes</span>
-          </div>
-         
+          </div>         
           <div className="d-flex align-items-center" id='iconYarateFloos'>
           <FaCoins  id='icon_coins'/>
-
             <span id='price_dollars'> <span id='dollar-Allama'>$</span>{recipe.price}</span>
           </div>
         </div>

@@ -2,11 +2,9 @@ import React, { useEffect, useState } from 'react';
 import truee from '/EveryOne-Sec&Any/Shape.svg';
 const imgFOOQ = '/EveryOne-Sec&Any/OvalTOP.svg';
 import More from '/EveryOne-Sec&Any/More Icon.svg';
-
 import { FaRegComment } from "react-icons/fa6";
 import { IoBookmarkOutline } from "react-icons/io5";
 import vito from '/EveryOne-Sec&Any/Oval.svg';
-
 import { FaHeart } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 import { PiTelegramLogoDuotone } from "react-icons/pi";

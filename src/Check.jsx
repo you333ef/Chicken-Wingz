@@ -10,8 +10,6 @@ import { FaHeart } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 import { PiTelegramLogoDuotone } from "react-icons/pi";
 import { BiLogoTelegram } from "react-icons/bi";
-
-
 import './check.css';
 const Check = () => {
     const[Big,SetBig]=useState([])
@@ -66,7 +64,7 @@ Objective[id]=false
         <div className="row p-5" >
             {Big.map(function(product,index){
                 return(
-                    <div className="col-lg-3 col-sm-12 col-md-6 mt-4" id="WOW">
+                    <div className="col-lg-3 col-sm-12 col-md-6 mt-4" key={index} id="WOW">
                     <div className="TopObj">
                       <img src={imgFOOQ} alt="" className="profile-img" />
                       <div className="text-and-icon">

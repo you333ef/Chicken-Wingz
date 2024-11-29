@@ -4,7 +4,7 @@ import { FaCartShopping } from "react-icons/fa6";
 import { FaCoins } from "react-icons/fa";
 import { FaStopwatch } from "react-icons/fa6";
 
-
+     
 
 const Try = () => {
 const[Base,SetBase]=useState([])
@@ -18,7 +18,19 @@ SetBase(DATATrY)
 })
 
 },[]);
+let [Ento,SetEnto]=useState([])
+useEffect(function(){
+  let AUHA=JSON.parse(localStorage.getItem('TRY'))||[]
+  SetEnto(AUHA)
+              },[])
+function Entry(Montag){
+  let auto=[...Ento,Montag]
+  SetEnto(auto)
+  window.localStorage.setItem('TRY',JSON.stringify(auto))
+  console.log(Ento)
+  
 
+}
 
 
 
@@ -44,7 +56,9 @@ SetBase(DATATrY)
             id="CART-ICON"
             style={{ cursor: "pointer" }}
           >
-            <FaCartShopping />
+            <FaCartShopping onClick={function(){
+                                  Entry(product)
+            }} />
           </div>
         </div>
         <div className="card-body d-flex flex-column">

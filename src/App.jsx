@@ -6,6 +6,7 @@ import Simple from './Simple'
 import EveryOne from './EveryOne'
 import Check from './Check'
 import Try from './Try'
+import Delicious from './Delicious'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <EveryOne/>
       <Check/>
       <Try/>
+      <Delicious/>
     </div>
   )
 }

@@ -6,6 +6,8 @@ import { FaRegComment } from "react-icons/fa6";
 import { IoBookmarkOutline } from "react-icons/io5";
 import vito from '/EveryOne-Sec&Any/Oval.svg';
 import { FaHeart } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
 import { FaRegHeart } from "react-icons/fa";
 import { PiTelegramLogoDuotone } from "react-icons/pi";
 import { BiLogoTelegram } from "react-icons/bi";
@@ -60,10 +62,14 @@ Objective[id]=false
         <h3>Check out @foodieland on Instagram</h3>
         <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore<br /> magna aliqut enim ad minim </p>
         </div>
-        <div className="row p-5" >
+        <div className="row p-5" id='YOUSEF' >
             {Big.map(function(product,index){
                 return(
-                    <div className="col-lg-3 col-sm-12 col-md-6 mt-4" key={index} id="WOW">
+                    <div className="col-lg-3 col-sm-12 col-md-6 mt-4" key={index}
+                    style={{
+                      backgroundColor: index % 2 === 0 ? "#fff" : "#f0f0f0", // ألوان مختلفة بالتناوب
+                    }}
+                    id="WOW">
                     <div className="TopObj">
                       <img src={imgFOOQ} alt="" className="profile-img" />
                       <div className="text-and-icon">
@@ -116,16 +122,13 @@ Objective[id]=false
     />
   )
 }
-
-
-                      <FaRegComment />
-                   
-                      </div>
-                      <div className="">
-                      <IoBookmarkOutline />
-                      </div>
-                      </div>
-                <div className="NOWOW">
+    <FaRegComment />
+    </div>
+    <div className="">
+    <IoBookmarkOutline />
+    </div>
+    </div>
+    <div className="NOWOW">
                   
 <img src={vito} alt="" />
 
@@ -138,6 +141,7 @@ Objective[id]=false
                       </p>
                       <p className="post-date">September 19</p>
                     </div>
+                    
                   </div>
                   
 
@@ -150,6 +154,10 @@ Objective[id]=false
             })}
 
 
+<div className="INSTA">
+<button>Visit Our Instagram <FaInstagram id='insta' />
+</button>
+</div>
 
 
         </div>

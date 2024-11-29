@@ -1,0 +1,51 @@
+[
+{
+    "img":"/public/TRY/ONEE.svg",
+    "id":1,
+    "price":122,
+    "title":"Mixed Tropical Fruit Salad with Superfood Boosts "
+},
+{
+    "img":"/public/TRY/TWOOO.svg",
+    "id":2,
+    "price":132,
+    "title":"Big and Juicy Wagyu Beef Cheeseburger"
+},
+{
+    "img":"/public/TRY/THREE.svg",
+    "id":3,
+    "price":132,
+    "title":"Cauliflower Walnut Vegetarian Taco Meat"
+},
+{
+    "img":"/public/TRY/FOURR.svg",
+    "id":4,
+    "price":132,
+    "title":"Rainbow Chicken Salad with Almond Honey Mustard Dressing"
+},
+{
+    "img":"/public/TRY/FIVEE.svg",
+    "id":5,
+    "price":132,
+    "title":"Barbeque Spicy Sandwiches with Chips "
+},
+{
+    "img":"/public/TRY/SIXX.svg",
+    "id":6,
+    "price":132,
+    "title":"Firecracker Vegan Lettuce Wraps - Spicy! "
+},
+{
+    "img":"/public/TRY/SIVENN.svg",
+    "id":7,
+    "price":132,
+    "title":"Chicken Ramen Soup with Mushroom "
+},
+{
+    "img":"/public/TRY/EIGHTT.svg",
+    "id":8,
+    "price":132,
+    "title":"Healthy Japanese Fried Rice with Asparagus"
+}
+
+]

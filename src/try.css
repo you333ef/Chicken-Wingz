@@ -1,0 +1,31 @@
+.SROUQ{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SROUQ p{
+    width: 60%;
+
+
+}
+.SROUQ h2{
+    font-weight: 700;
+    width: 40%;
+    
+
+}
+#SWEFT{
+    width: 100% !important;
+}
+@media(max-width:769px){
+    #SWEFT{
+        width: 85% !important;
+    }
+}
+#SHOFT{
+   padding: 10px;
+}
+.KOKOKO{
+    background-color: #fff;
+    height: 100%;
+}

@@ -30,16 +30,6 @@ function HandleCart(recipe){
   window.localStorage.setItem('ToCart',JSON.stringify(outLiter))
   console.log(outLiter)
 }
-
-
-
-
-
-
-
-
-
-
   return (
     <div className='container mt-5' id='Simple_Continer'>
 <h3 className='text-center p-1' id='SMPLE_TITLE'>Simple and tasty recipes</h3>

@@ -7,6 +7,7 @@ import EveryOne from './EveryOne'
 import Check from './Check'
 import Try from './Try'
 import Delicious from './Delicious'
+import Footer from './Footer'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Check/>
       <Try/>
       <Delicious/>
+      <Footer/>
     </div>
   )
 }

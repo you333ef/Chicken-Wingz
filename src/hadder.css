@@ -64,6 +64,7 @@
   
 /* الاتنين ..تابلت و موبايل  */
   @media (max-width: 992px) { 
+    .right-YASTA {display: none;}
     #PADGEE {
       display: none;
     }
@@ -135,4 +136,13 @@
     }
 
    
+}
+.time-btn,.category-btn{
+    background-color: #0000000D !important;
+ color: #000 !important;
+ border-radius: 5px !important;
+
+}
+#Fdahya{
+    color: #000;
 }

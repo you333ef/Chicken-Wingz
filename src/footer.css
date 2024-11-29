@@ -1,0 +1,56 @@
+.A5oyaa-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Description */
+  .A5oyaa-description {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Navigation Links */
+  .A5oyaa-nav li a {
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+  }
+  
+  .A5oyaa-nav li a:hover {
+    color: #007bff;
+  }
+  
+  /* Social Media Icons */
+  .A5oyaa-social li a {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .A5oyaa-social li a:hover {
+    color: #007bff;
+  }
+  .A5oyaa-nav li a{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+  }
+  @media(max-width:990px){
+    .A5oyaa-description{
+        display: none;
+    }
+  }
+  @media(max-width:769px){
+    #islogo{
+        text-align: center;
+    }
+    #Alyaaa{
+        text-align: center;
+    }
+    #conicons{
+        text-align: center;
+        margin: auto;
+    }
+    #A5oyaa-nav{
+        display: none !important;
+    }
+
+  }

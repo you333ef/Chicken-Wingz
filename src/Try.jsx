@@ -50,7 +50,7 @@ function Entry(Montag){
       <div className="card KOKOKO" id='SWEFT' >
         <div className="COWYEZ">
           {/* تأكد من أن مصدر الصورة صالح */}
-          <img src={product.img} alt={product.title} className="card-img-top" />
+          <img src={product.src} alt={product.title} className="card-img-top" />
           <div
             className=""
             id="CART-ICON"

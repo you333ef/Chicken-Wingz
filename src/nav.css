@@ -76,4 +76,8 @@ margin-top: 30px !important;
 
 
  }
+ #cart_icon_Nav,#LOGO_NAV{
+    cursor: pointer;
+ }
+
  

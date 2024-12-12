@@ -7,12 +7,20 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './nav.css';
+import Cart from '../src/Cart'
+
+import { useNavigate } from "react-router-dom";
 
 const CustomNavbar = () => {
+  let navigate=useNavigate()
   return (
     <Navbar expand="lg" className="bg-body-tertiary mt-2" id="OSS_NAV">
       <Container fluid>
-        <Navbar.Brand href="#" id="LOGO_NAV">Foodieland</Navbar.Brand> 
+        <Navbar.Brand  id="LOGO_NAV"
+         onClick={function(){
+          navigate('/')
+        }}
+        >Foodieland</Navbar.Brand> 
           <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -20,7 +28,11 @@ const CustomNavbar = () => {
            
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link 
+            onClick={function(){
+              navigate('/')
+            }}
+            >Home</Nav.Link>
          <Nav.Link href="#action1" id='cart_phone'>Cart </Nav.Link>
        
             <Nav.Link href="#action2">Recipes</Nav.Link>
@@ -32,7 +44,11 @@ const CustomNavbar = () => {
           <div className="d-flex iconsNavLeft text-start" >
           <img src={facebook} alt="@@SOO" />
           <img src={twitter} alt="@@ROO" />
-          <FaCartShopping  id='cart_icon_Nav'/>
+          <FaCartShopping
+          onClick={function(){
+            navigate('/Cart')
+          }}
+          id='cart_icon_Nav'/>
           </div>
         </Navbar.Collapse>
       </Container>

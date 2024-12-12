@@ -1,0 +1,123 @@
+@media (max-width: 768px) {
+    .list-group-item {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .list-group-item img {
+      margin-bottom: 15px;
+    }
+    .btn {
+      width: 100%;
+    }
+    .container {
+      padding: 0 15px;
+    }
+  }
+  /* تنسيق القسم الأيسر (سلة التسوق) */
+.cart-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  .product-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  .product-details h4 {
+    font-size: 16px;
+    margin: 0;
+  }
+  .product-details p {
+    font-size: 14px;
+    color: #555;
+  }
+  .product-quantity {
+    display: flex;
+    align-items: center;
+    
+  }
+  .quantity-btn {
+    background: #000;
+    border: 1px solid #fff;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .quantity-input {
+    width: 40px;
+    text-align: center;
+    margin: 0 5px;
+  }
+  .remove-item {
+    background: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* تنسيق القسم الأيمن (ملخص الطلب) */
+  .order-summary {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .shipping {
+    margin: 20px 0;
+  }
+  .shipping-select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  .discount-code {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .discount-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+  }
+  .discount-btn {
+    padding: 8px 12px;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  .checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background: #000;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .FLOOS_YAPA{
+    display: flex !important;
+    gap: 5px !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif !important;
+
+  }
+  #FaSackDollar{
+    color:#85BB65;
+    font-size: 20px;
+  }

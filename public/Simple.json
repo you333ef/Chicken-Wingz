@@ -3,54 +3,64 @@
     "id": 1,
     "src": "/SIMPLE/image(1).svg",
     "title": "Big and Juicy Wagyu Beef Cheeseburger",
-    "price": 150
+    "price": 150,
+     "quantity": 0 
+    
   },
   {
     "id": 2,
     "src": "/SIMPLE/image(2).svg",
     "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
-    "price": 200
+    "price": 200,
+     "quantity": 0 
   },
   {
     "id": 3,
     "src": "/SIMPLE/image(3).svg",
     "title": "Strawberry Oatmeal Pancake with Honey Syrup",
-    "price": 120
+    "price": 120,
+     "quantity": 0 
   },
   {
     "id": 4,
     "src": "/SIMPLE/image(4).svg",
     "title": "Fresh and Healthy Mixed Mayonnaise Salad",
-    "price": 90
+    "price": 90,
+     "quantity": 0 
   },
   {
     "id": 5,
     "src": "/SIMPLE/image(5).svg",
     "title": "Chicken Meatballs with Cream Cheese",
-    "price": 180
+    "price": 180,
+     "quantity": 0 
   },
   {
     "id": 6,
     "src": "/SIMPLE/image(6).svg",
     "title": "Don't Forget to Eat Healthy Food with Cream Cheese !",
-    "price": 10
+    "price": 10,
+     "quantity": 0 
   },
   {
     "id": 7,
     "src": "/SIMPLE/image(7).svg",
     "title": "Fruity Pancake with Orange & Blueberry",
-    "price": 110
+    "price": 110,
+     "quantity": 0 
   },
   {
     "id": 8,
     "src": "/SIMPLE/image(8).svg",
     "title": "The Best Easy One Pot Chicken and Rice",
-    "price": 140
+    "price": 140,
+     "quantity": 0 
   },
   {
     "id": 9,
     "src": "/SIMPLE/image26.svg",
     "title": "The Creamiest Creamy Chicken and Bacon Pasta",
-    "price": 160
+    "price": 160,
+     "quantity": 0 
   }
 ]

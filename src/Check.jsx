@@ -132,9 +132,9 @@ Objective[id]=false
                   
 <img src={vito} alt="" />
 
-                <p className="post-text">
+                <h3 className="post-text">
                         Liked by <b>create_love</b> and <b>44,958</b>
-                      </p>
+                      </h3>
                 </div>
                       <p className="post-caption">
                         Foodieland: True vegetarian dishes need to have certain vitamins for these people.
